@@ -100,7 +100,7 @@
                 </tr>
                 <tr>
                     <td colspan="4" class="auto-style8">Buscar&nbsp; autos por marca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:DropDownList ID="dropFiltroMarcas" runat="server" CssClass="auto-style7" Height="16px" Width="123px" OnSelectedIndexChanged="Page_Load">
+                        <asp:DropDownList ID="dropFiltroMarcas" runat="server" CssClass="auto-style7" Height="16px" Width="123px" OnSelectedIndexChanged="Page_Load" AutoPostBack="True">
                         </asp:DropDownList>
                     </td>
                 </tr>
